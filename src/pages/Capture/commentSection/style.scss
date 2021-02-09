@@ -1,0 +1,112 @@
+@import '../../../assets/styles/mixins';
+@import '../../../assets/styles/colors';
+
+.comment-section {
+  padding: 0px 25px 25px;
+  clear: both;
+}
+.align-left {
+	float: left;
+}
+.align-right {
+	float: right;
+}
+.grey-text {
+  @include grey-text;
+}
+.grey-icon {
+  @include grey-icon;
+}
+.comment-section__border {
+  margin: 20px 0;
+  color: $trans-060;
+}
+.comment-section__textarea {
+  margin: 13px 0;
+}
+.textarea {
+  padding: 9px 15px;
+  border: none;
+  width: 90%;
+  // height: 64px;
+  background-color: $grey-050;
+  border-radius: 4px;
+  resize: none;
+  @include grey-text;
+}
+.textarea__comment {
+  height: 64px;
+}
+.textarea__email {
+  height: 20px;
+}
+.comment-section__textbox--left{
+  display: flex;
+  align-items: center;
+}
+.comment-section__textbox--left span{
+  padding-left: 6px;
+}
+.comment-section__comment-num {
+  display: flex;
+  background-color: $blue-100;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  font: {
+    family: roboto;
+    weight: 700;
+    style: normal;
+    size: 12px;
+  }
+  color: $white-000;
+  line-height: 12px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+}
+.comment-section__profile{
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    padding-right: 6px;
+}
+.comment-section__message {
+  width: 100%;
+  font-size: 14px;
+  line-height: 23px;
+  color: $grey-100;
+}
+.comment-section__buttons {
+  margin: 13px 0;
+}
+.comment-section__post{
+  color: $red-100;
+  border: 2px solid $red-100;
+  height: 32px;
+  padding: 0px 19px;
+  border-radius: 50px;
+  background-color: $white-000;
+  margin: 0 18px 0 0;
+}
+.comment-section__cancel {
+  height: 32px;
+  padding: 0px 19px;
+  background-color: $white-000;
+  border: none;
+  @include grey-text;
+  text-decoration: underline;
+}
+.comment-section__copy{
+  color: $red-100;
+  border: 2px solid $red-100;
+  height: 32px;
+  padding: 0px 17px 0px 20px;
+  border-radius: 50px;
+  background-color: $white-000;
+  margin: 0 18px 0 0;
+}
+.comment-section__copy-link span{
+  @include grey-text;
+}

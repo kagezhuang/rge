@@ -1,0 +1,25 @@
+@import '../../assets/styles/colors';
+
+$tool-col-width: 10.334%;
+$panel-col-width: 25.433%;
+
+.capture {
+  // background-color: $grey-040;
+}
+.column {
+  float: left;
+  height: 100%;
+}
+.tool {
+  width: $tool-col-width;
+}
+.email {
+  width: (100% - $panel-col-width - $tool-col-width);
+}
+.panel {
+  height: 100vh;
+  padding-top: 20px;
+  box-shadow: inset 1px 0px 0px #EDEDEE;
+  background-color: $white-000;
+  width: $panel-col-width;
+}

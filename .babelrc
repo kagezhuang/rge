@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@pages": "./src/pages",
+          "@format": "./src/services/Format",
+          "@component": "./src/components"
+        }
+      }
+    ]
+  ],
+}

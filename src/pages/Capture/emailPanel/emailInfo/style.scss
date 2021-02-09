@@ -1,0 +1,63 @@
+@import '../../../../assets/styles/colors';
+@import '../../../../assets/styles/mixins';
+
+.email-info {
+  background-color: $white-000;
+  margin: 0 auto 30px auto;
+  padding: 17px 20px 20px 20px;
+  // width: 640px;
+  border: 1px solid rgba(26, 40, 66, 0.08);
+  box-sizing: border-box;
+  border-radius: 4px;
+  
+  &__title-name {
+    // margin: 9px 0;
+    font: {
+      family: Roboto;
+      style: normal;
+      weight: normal;
+      size: 17px;
+    };
+    color: $grey-100;
+    line-height: 21px;
+  }
+  &__title-edit, &__row-more {
+    float: right;
+    color: $grey-100;
+    @include grey-text;
+  }
+  &__line {
+    color: $grey-040;
+    height: 1px;
+  }
+  &__row {
+    height: 18px;
+  }
+  &__row-name {
+    width: 17%;
+    @include grey-text;
+  }
+  &__row-more a {
+    @include grey-text;
+  }
+  &__row-content {
+    font: {
+      family: Roboto;
+      style: normal;
+      weight: normal;
+      size: 14px;
+      
+    };
+    color: $grey-100;
+    line-height: 18.9px;
+    white-space: nowrap;
+  }
+  &__from-content {
+    @include grey-text;
+
+    a {
+      color: $red-100;
+      text-decoration: underline;
+    }
+  }
+}
