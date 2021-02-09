@@ -9,16 +9,16 @@ const UpgradeSection = () => {
     <div className="upgrade-section">
       <div className="upgrade-section__features">
         <div className="upgrade-section__card">
-          <img className="upgrade-section__img" src={ comment } alt="comment"/>
+          <img className="upgrade-section__img" src={ comment } alt="comment"  width="100" height="200" />
           <div className="upgrade-section__name">Comment</div>
         </div>
         <div className="upgrade-section__card">
           
-        <img className="upgrade-section__img" src={ annotate } alt="comment"/>
+        <img className="upgrade-section__img" src={ annotate } alt="comment" width="100" height="200" />
           <div className="upgrade-section__name">Annotate</div>
         </div>
         <div className="upgrade-section__card">
-          <img className="upgrade-section__img" src={ share } alt="comment"/>
+          <img className="upgrade-section__img" src={ share } alt="comment" width="100" height="200" />
           <div className="upgrade-section__name">Share</div>
         </div>
       </div>

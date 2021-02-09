@@ -10,12 +10,9 @@
     flex-wrap: nowrap;
     gap: 21px;
   }
-  &__card {
-    // min-width: 15%;
-    // height: auto;
-  }
   &__img {
-    width: 106px;
+    max-width: 130px;
+    height: auto;
   }
   &__name {
     text-align: center;
@@ -27,7 +24,6 @@
     height: 62px;
   }
 }
-
 .navbar-capture__upgrade{
     color: $red-100;
     border: 2px solid $red-100;
